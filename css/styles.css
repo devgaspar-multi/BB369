@@ -191,6 +191,7 @@
   font-weight: 700;
   line-height: normal;
   margin: 0px 0px 6px 0px;
+  padding-left: 22px;
 }
 
 .BB369-ficha-gray-txt {
@@ -418,10 +419,6 @@
   .BB369-ficha-tecnica {
     padding: 0px 20px;
     margin: 20px 0px 130px 0px;
-  }
-
-  .BB369-ficha-subtitle {
-    padding-left: 22px;
   }
 }
 
