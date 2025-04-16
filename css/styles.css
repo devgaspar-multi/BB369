@@ -1,0 +1,458 @@
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 400;
+  src: url("../fonts/Elza-Regular.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 700;
+  src: url("../fonts/Elza-Bold.ttf");
+}
+
+.lamina-BB369-container {
+  box-shadow: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.BB369-img-desk {
+  display: flex;
+  width: 100%;
+}
+
+.BB369-img-mb {
+  display: none;
+  width: 100%;
+}
+
+.BB369-thrd-container {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+.BB369-thrd-c-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 65px 0px;
+}
+
+.BB369-thrd-card {
+  max-width: 670px;
+  height: 732px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 29px;
+}
+
+.BB369-thrd-card img {
+  display: flex;
+  width: 100%;
+  border-radius: 29px;
+  padding: 24px 26px 32px 26px;
+}
+
+.BB369-thrd-card-title {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 700;
+  font-size: 43.87px;
+  line-height: 120%;
+  letter-spacing: 2%;
+  color: #0050dc;
+  margin-top: 0px;
+  margin-bottom: 14px;
+}
+
+.BB369-thrd-card-txt {
+  font-family: "elza", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1e1e1e;
+  max-width: 575px;
+  margin: 0px;
+}
+
+.BB369-ffth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 65px 0px;
+  gap: 55px;
+}
+
+.BB369-ffth-container img {
+  border-radius: 29px;
+}
+
+.BB369-ffth-container .BB369-thrd-card-title {
+  margin-bottom: 27px !important;
+}
+
+.BB369-ffth-container .BB369-thrd-card-txt {
+  text-align: left;
+}
+
+.BB369-sxt-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 65px 0px;
+  gap: 28px;
+}
+
+.BB369-sxt-container img {
+  border-radius: 29px;
+}
+
+.BB369-sxt-container .BB369-thrd-card-title {
+  margin-bottom: 27px !important;
+}
+
+.BB369-sxt-container .BB369-thrd-card-txt {
+  text-align: left;
+}
+
+.BB369-thrd-c-cards-mb {
+  display: none !important;
+}
+
+.BB369-sxt-container img,
+.BB369-ffth-container img {
+  width: 100%;
+  display: flex;
+  max-width: 677px;
+}
+
+.BB369-scnd-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  margin: 65px 0px;
+}
+
+.BB369-scnd-container img {
+  border-radius: 31px;
+}
+
+.BB369-scnd-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.BB369-scnd-left-content .BB369-scnd-fw {
+  display: flex;
+  gap: 34px;
+}
+
+.BB369-scnd-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.BB369-features-01-desk {
+  display: flex;
+  width: 100%;
+}
+
+.BB369-features-01-mb {
+  display: none;
+  width: 100%;
+}
+
+.BB369-ficha-tecnica {
+  max-width: 1053px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 85px auto;
+}
+
+.BB369-ficha-subtitle {
+  color: #000;
+  font-family: "Baloo 2", sans-serif;
+  font-size: 30.502px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px 0px 6px 0px;
+}
+
+.BB369-ficha-gray-txt {
+  color: #585858;
+  font-family: "elza", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  border-radius: 56.238px;
+  background: #dbdbdb4d;
+  padding: 3px 0px 3px 20px;
+  margin: 0px;
+}
+
+.BB369-ficha-white-txt {
+  color: #000;
+  font-family: "elza", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  border-radius: 56.238px;
+  padding: 3px 0px 3px 20px;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .BB369-thrd-card {
+    padding: 0px 26px;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 1270px) {
+  .BB369-scnd-container {
+    flex-direction: column;
+  }
+
+  .BB369-scnd-right-content {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 960px) {
+  .BB369-scnd-right-content {
+    flex-direction: column;
+  }
+
+  .BB369-ffth-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .BB369-sxt-container {
+    flex-direction: column-reverse;
+    gap: 35px;
+    padding: 0px 14px 40px 14px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .BB369-img-desk {
+    display: none;
+  }
+
+  .BB369-img-mb {
+    display: flex;
+  }
+
+  .BB369-ffth-container .BB369-thrd-card-txt {
+    text-align: center;
+  }
+
+  .BB369-ffth-container {
+    flex-direction: column;
+    gap: 35px;
+    padding: 40px 14px;
+  }
+
+  .BB369-thrd-c-cards-desk {
+    display: none;
+  }
+
+  .BB369-thrd-c-cards-mb {
+    display: flex !important;
+  }
+
+  .BB369-thrd-card-title {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .BB369-thrd-card-txt {
+    font-size: 14px;
+  }
+
+  .BB369-tamanho-cadeirinha {
+    padding-top: 40px;
+    background-color: #f5f5f5;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+  .BB369-thrd-card {
+    height: 580px;
+    justify-content: flex-start;
+    padding: 0px 16px 40px 16px;
+    margin: 0px 16px;
+  }
+
+  .BB369-thrd-c-cards-mb {
+    border-radius: 29px;
+  }
+
+  .BB369-thrd-card .BB369-thrd-card-txt {
+    padding: 0px 20px;
+  }
+
+  .BB369-thrd-card img {
+    padding: 9px 16px 19px 16px;
+  }
+
+  .BB369-thrd-container {
+    padding: 45px 0px 20px 0px;
+  }
+
+  .BB369-thrd-c-cards-mb .swiper-slide {
+    height: 680px;
+  }
+
+  .BB369-thrd-c-cards-mb .swiper-pagination .swiper-pagination-bullet {
+    height: 11px;
+    width: 11px;
+    border: 1px solid #dbdbdb;
+    background-color: transparent;
+    opacity: 1;
+  }
+
+  .BB369-thrd-c-cards-mb .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #d9d9d9 !important;
+    border: 1px solid #d9d9d9 !important;
+    opacity: 1;
+  }
+
+  .BB369-features-01 {
+    max-width: 254px;
+  }
+
+  .BB369-features-02 {
+    max-width: 160px;
+  }
+
+  .BB369-features-03 {
+    max-width: 433px;
+  }
+
+  .BB369-features-04 {
+    max-width: 260px;
+  }
+
+  .BB369-features-05 {
+    max-width: 171px;
+  }
+
+  .BB369-scnd-right-content {
+    flex-direction: row;
+  }
+
+  .BB369-scnd-left-content,
+  .BB369-scnd-container {
+    gap: 15px;
+  }
+
+  .BB369-scnd-left-content {
+    align-items: center;
+  }
+
+  .BB369-scnd-container img {
+    border-radius: 17px;
+  }
+}
+@media (max-width: 620px) {
+  .BB369-thrd-card {
+    height: 500px;
+  }
+
+  .BB369-thrd-c-cards-mb .swiper-slide {
+    height: 580px;
+  }
+
+  .BB369-scnd-left-content .BB369-scnd-fw {
+    gap: 10px;
+  }
+
+  .BB369-scnd-right-content {
+    gap: 3px;
+  }
+}
+
+@media (max-width: 550px) {
+  .BB369-thrd-card {
+    height: 450px;
+  }
+
+  .BB369-thrd-c-cards-mb .swiper-slide {
+    height: 540px;
+  }
+}
+
+@media (max-width: 470px) {
+  .BB369-thrd-card {
+    height: 420px;
+  }
+
+  .BB369-thrd-c-cards-mb .swiper-slide {
+    height: 500px;
+  }
+
+  .BB369-ficha-tecnica {
+    padding: 0px 20px;
+    margin: 20px 0px 130px 0px;
+  }
+
+  .BB369-ficha-subtitle {
+    padding-left: 22px;
+  }
+}
+
+@media (max-width: 440px) {
+  .BB369-features-01 {
+    max-width: 200px;
+  }
+
+  .BB369-features-02 {
+    max-width: 120px;
+  }
+
+  .BB369-features-03 {
+    max-width: 330px;
+  }
+
+  .BB369-features-04 {
+    max-width: 200px;
+  }
+
+  .BB369-features-05 {
+    max-width: 130px;
+  }
+}
+
+@media (max-width: 420px) {
+  .BB369-thrd-card {
+    height: 380px;
+  }
+
+  .BB369-thrd-c-cards-mb .swiper-slide {
+    height: 460px;
+  }
+}
